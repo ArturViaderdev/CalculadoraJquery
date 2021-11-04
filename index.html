@@ -1,0 +1,39 @@
+<html>
+<head><title>Calculadora</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="calculadora.js"></script>    
+<link rel="stylesheet" href="calculadora.css"/>
+</head>
+<body>
+    <div id="calculadora">
+    <input type="text" id="pantalla" value="0"><br><br>
+    <table id="botonera">
+    <tr><td><input type="button" id="cancela" class='boton' value="AC"></td><td><input type="button" id="borra" class='boton' value="C"></td><td><input type="button" id="negativo" class='boton' value="+-"></td><td><input type="button" id='suma' class='operacion boton' value="+"></td></tr>
+    <tr>
+    <td><input type="button" id="7" value="7" class='boton'></td>
+    <td><input type="button" id="8" value="8" class='boton'></td>
+    <td><input type="button" id="9" value="9" class='boton'></td>
+    <td><input type="button" id='resta' class='operacion boton' value="-"></td>
+    </tr>
+    <tr>
+    <td><input type="button" id="4" value="4" class='boton'></td>
+    <td><input type="button" id="5" value="5" class='boton'></td>
+    <td><input type="button" id="6" value="6" class='boton'></td>
+    <td><input type="button" id='multiplica' class='operacion boton' value="*"></td>
+    </tr>
+    <tr>
+    <td><input type="button" id="1" value="1" class='boton'></td>
+    <td><input type="button" id="2" value="2" class='boton'></td>
+    <td><input type="button" id="3" value="3" class='boton'></td>
+    <td><input type="button" id='divide' class='operacion boton' value="/"></td>
+    </tr>
+    <tr>
+    <td colspan="2"><input type="button" id="0" value="0" class='boton'></td>
+    <td><input type="button" id='decimal' value="." class='boton'></td>
+    
+    <td><input type="button" id='igual' value="=" class='boton'></td>
+    </tr>
+    </table>
+    </div>
+</body>
+</html>
